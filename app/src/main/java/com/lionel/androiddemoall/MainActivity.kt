@@ -54,17 +54,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-fun Modifier.statusBarsPadding(): Modifier = composed {
-    padding(
-        rememberInsetsPaddingValues(
-            insets = LocalWindowInsets.current.statusBars,
-            applyTop = true
-        ).apply {
-            Log.i("log_zc", "statusBarsPadding: top:${this.calculateTopPadding()}")
-        }
-    )
-}
-
 
 @Composable
 fun Greeting(name: String) {
