@@ -16,7 +16,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.core.view.*
-import com.google.accompanist.insets.*
+import com.google.accompanist.insets.ProvideWindowInsets
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.lionel.androiddemoall.ui.theme.AndroidDemoAllTheme
 import com.lionel.androiddemoall.ui.theme.ImmerseTheme

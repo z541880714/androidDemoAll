@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "androidDemoAll"
 include ':app'
+include ':performance'
+include ':terminal'
